@@ -2,8 +2,11 @@ body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
 }
 .top-quart{
+    flex: 2 1 auto;
     background-color: #1f2938;
     color: white;
     margin: 0px;
@@ -62,4 +65,25 @@ body{
     border: none;
     color: white;
     font-size: medium;
+}
+.middle{
+    flex: 2 1 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.blocks{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.block{
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+.body-text{
+    display: flex;
+    justify-content: space-evenly;
 }
