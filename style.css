@@ -16,21 +16,27 @@ body{
 }
 .logo{
     box-sizing: content-box;
-    margin: 0;
+    margin-left: 40px;
     margin-right: 40px;
-    padding: 10px 200px 10px 100px;
+    padding: 0px 200px 0px 0px;
     width: max-content;
     font-size: x-large;
 }
 .menu{
+    margin-top: 20px;
+    color: #1F2937;
+    border-style: solid;
+    border-radius: 50px;
     display: inline-flex;
     justify-content: flex-end;
     text-decoration: none;
     flex: 1 1 0%;
-    margin: 0px;
- 
+    margin-left: 100px;
+    background-color: white;
 }
 .list{
+    padding-top: 20px;
+    padding-right: 40px;
     margin-left: 20cm;
     display: inline-flex;
     flex: auto;
@@ -123,6 +129,7 @@ body{
     font-size: 25px;
     padding-bottom: 60px;
 }
+/*The Call to action banner*/
 .banner-section{
     flex: 1 1 auto;
     align-self: center;
@@ -154,4 +161,11 @@ body{
     color: white;
     font-size: medium;
 }
-
+/*Footer*/
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
