@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0px 0px 0px 0px;
+}
+.top-quart{
+    background-color: #1f2938;
+    color: white;
+    margin: 0px;
+    padding: 0;
+    box-sizing: content-box;
+}
+.logo{
+    box-sizing: content-box;
+    margin: 0;
+    margin-right: 40px;
+    padding: 10px 200px 10px 100px;
+    width: max-content;
+    font-size: x-large;
+}
+.menu{
+    display: inline-flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    flex: 1 1 0%;
+    margin: 0px;
+ 
+}
+.list{
+    margin-left: 20cm;
+    display: inline-flex;
+    flex: auto;
+    gap: 30px;
+    list-style: none;
+    flex: 1 1 0%;
+}
+.quote{
+    display: flex;
+    padding-left: 90px;
+    flex: auto;
+}
+.top-words{
+    padding-top: 80px;
+    padding-left: 200px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    max-width: 250px;
+}
+.rectangle{
+    margin: 70px 0px 70px 700px;
+    padding: 120px 200px 120px 200px ;
+    width: 300;
+    height: 300;
+    background-color: #5f5b5b;
+
+}
+.Sign-Up{
+    padding: 5px 20px 5px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    font-size: medium;
+}
