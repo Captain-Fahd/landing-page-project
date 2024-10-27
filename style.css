@@ -5,6 +5,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+/*Header of Webpage*/
 .top-quart{
     flex: 2 1 auto;
     background-color: #1f2938;
@@ -37,7 +38,7 @@ body{
     list-style: none;
     flex: 1 1 0%;
 }
-.quote{
+.header-text{
     display: flex;
     padding-left: 90px;
     flex: auto;
@@ -66,6 +67,7 @@ body{
     color: white;
     font-size: medium;
 }
+/*Middle body of the Webpage*/
 .middle{
     flex: 2 1 auto;
     display: flex;
@@ -86,4 +88,29 @@ body{
 .body-text{
     display: flex;
     justify-content: space-evenly;
+}
+/*Quotes and Testimonials*/
+.quart-tres{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #E5E7EB;
+}
+.quote{
+    padding-top: 60px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 700px;
+    padding-left: 700px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.quotee{
+    margin: 0px 0px 30px 1400px;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 60px;
 }
