@@ -68,11 +68,20 @@ body{
     font-size: medium;
 }
 /*Middle body of the Webpage*/
+.middle-heading{
+    text-align: center; 
+    padding-bottom: 70px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
 .middle{
     flex: 2 1 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 .blocks{
     display: inline-flex;
@@ -114,3 +123,35 @@ body{
     font-size: 25px;
     padding-bottom: 60px;
 }
+.banner-section{
+    flex: 1 1 auto;
+    align-self: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 800px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
+.banner{
+    display: flex;
+    padding-left: 80px;
+    color: white;
+}
+.banner-button{
+    padding-left: 360px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.Sign-Up-2{
+    padding: 5px 20px 5px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-size: medium;
+}
+
